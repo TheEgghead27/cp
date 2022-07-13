@@ -1,0 +1,8 @@
+we need ops to be even, which means that the index of the new location will be even/odd like the old one
+
+from here we just sort normally
+
+we also need to check for repeating numbers
+
+we separate the even and odd indices
+	we can swap among these lists because itll keep orientation right (even ops)

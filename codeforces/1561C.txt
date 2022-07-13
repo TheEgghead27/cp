@@ -1,0 +1,26 @@
+min level for a cave
+(highest power level) - (index to account for gains) + 1
+
+k[0] + 1 to beat k[0]
+
+we take the max needed entry level for a cave
+
+a[j] + 1 - j
+|req lvl|gains| = entry req
+
+we list out all the entry levels, can permutate (sort) however because any order allowed
+
+clearing cave i will award ki levels
+
+we want to start on the lowest starting level, sort it first
+
+also subtract the total monsters before it
+then use the max to find the initial power
+
+W[i] represents ith cave, [starting level, levels gained/monster count]
+
+search for max (starting level - gains)
+(init min_lvl to 0)
+
+optimal to start with the minimum starting level
+

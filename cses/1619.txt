@@ -1,0 +1,5 @@
+read in numbers, keeping track of if its an in or an out
+
+sort the array, read through and ++ the current population when add, -- (and check for max) when subtract
+print max
+

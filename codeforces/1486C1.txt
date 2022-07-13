@@ -1,0 +1,9 @@
+we get array of length n (distinct integers)
+query the grader: a[l...r], which is *second* max
+
+find index of max element of array
+
+we try to half search space
+	like binary search
+we if second max is the same in a half, then we narrow to there
+when the two end up different, we go for the subarray our second max isnt in
