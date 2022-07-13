@@ -1,0 +1,6 @@
+# output binaries
+*.out
+*.o
+
+# IDE metadata
+.idea/
