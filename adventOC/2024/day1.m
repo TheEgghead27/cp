@@ -1,4 +1,4 @@
-A = csvread("1/A");
+A = csvread("1");
 sum(abs(sort(A(:,2)) - sort(A(:,1))))
 
 s = 0;
